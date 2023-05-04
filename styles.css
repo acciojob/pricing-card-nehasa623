@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+.container{
+background-color:gray;
+width:400px;
+height:600px}
+img{
+margin:50px ;}
+h1{
+text-align:center;	
+}
+p{
+  text-align:center;
+}
+.now{
+	display:inline;
+	margin:125px;
+	padding:10px;
+	font-size:30px;
+	
+	color:white;
+	background-color:hotpink;
+	border-radius:10px
+}
+
