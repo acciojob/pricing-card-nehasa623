@@ -1,24 +1,40 @@
 /*  your css code here. If applicable */
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .container{
-background-color:gray;
-width:400px;
-height:600px}
-img{
-margin:50px ;}
-h1{
-text-align:center;	
+background-color:#f1f1f1;
+width:30%;
+	padding:30px;
+text-align: center;
+    margin: auto;
+	box-shadow: 0 4px 8px 0 ;
 }
-p{
-  text-align:center;
+.container h1{
+	font-size: 28px;
 }
-.now{
-	display:inline;
-	margin:125px;
-	padding:10px;
-	font-size:30px;
-	
-	color:white;
-	background-color:hotpink;
-	border-radius:10px
+.container p{
+	font-size: 16px;
 }
+.container img{
+	width:100%;
+}
+.btn{
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    opacity: 0.7;
+    font-size: 16px;
+    border:none;
+    cursor:pointer;
+    background-color:red;
+    margin-top:10px;
+  }
+.btn:hover{
+    opacity: 1;
+  }
 
